@@ -14,39 +14,39 @@
                 font-family: 'Montserrat', serif;
                 line-height: 1.3;
                 font-size: 120%;
-                color: #62371e;
+                color: #814624;
                 background: #F3E2D8;
             }
             h1, h2, h3, h4 {
                 font-family:'Playfair Display', serif;
             }
             header, main, footer {
-                width: 45em;
+                width: 40em;
+                max-width: 95%;
             }
-            /* Style hyperlink states */
-            a{
-                color: #793006;
-
-            }
-            a:hover {
-                    color: #3f200f; 
-            }
-            a:visited {
-                color: #3f200f
-            }
+        
+            
                 /* style our figures */
                 figure {
-                    width:360px;
-                    background-color: #F3E2D8;
+                    width:350px;
+                    max-width: 90%;
+                    background-color: #e0d3cc;
                     color:#62371e;
-                    padding: 0px;
-                    border: 0px;
+                    padding: 10px;
+                    border: 2px double rgb(138, 92, 80);
+                    border-radius: 2em;
+                    box-shadow: 0.25em 0.25em 0.75em #3f200f
+                }
+                /* Style hyperlink states */
+                figure img {
+                    border-radius: 2em;
+
                 }
                 figure a:link {
-                    color:rgb(118, 166, 255);
+                    color:rgb(106, 158, 255);
                 }
                 figure a:visited {
-                    color:rgb(87, 118, 177);
+                    color:rgb(88, 120, 179);
                 }
 
     </style>
@@ -56,7 +56,6 @@
     <header>
         <!-- Put Website branding (logo & name) below-->
         <h1>About Samantha Her</h1>
-        <p>Write a single paragraph overview about your web page.</p>
     </header>
     <main> 
 
@@ -69,7 +68,7 @@
         <p>
             Hello, I am <strong>Samantha Her</strong>. I am a <strong>junior</strong> in <strong>Century High School</strong> living in <strong>Aloha, Oregon</strong>. </p>
 
-        <p>When I grow up, I want to <em>own a part of a business</em>>- but some may ask, why? </p>
+        <p>When I grow up, I want to <em>own a part of a business</em>- but some may ask, why? </p>
         
         <p>Because owning a part of a business is:</p>
 
@@ -83,7 +82,8 @@
 
         <h2>What Does Samantha Her Enjoy Doing?</h2>
         <figure>
-            <img src="images/cat-gd94883362_640.png">
+            <img src="images/cat-gd94883362_640.png" alt="Image of a cat trying to catch a mouse"
+            width="350">
             <figcaption>Image by <a href="https://pixabay.com/users/jendigitalart-6490932/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3552048">JenDigitalArt</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3552048">Pixabay</a></figcaption>
         </figure>
         <p>
@@ -110,7 +110,7 @@
 
     </main>
     <footer> 
-        <p>Created by Samantha Her &copy; 2022.</p>
+        <p>Created by Samantha Her &copy; 2022</p>
     </footer>
 </body>
 </html>
